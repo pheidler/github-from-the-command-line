@@ -1,0 +1,42 @@
+Github for Beginners:
+
+Git is a Version Control System (VCS) for tracking changes in computer files
+
+Typically, you have a local repository that you work on, and you upload(push) your changes to a remote repository(GitHub)
+
+GIT:
+-Keeps track of code history
+-Takes "snapshots" of your files(commit)
+-You can visit any snapshot any time
+-You can stage files before commiting(add)
+
+Basic Commands:
+
+git init             initializes local git repository(creates .git folder)
+
+git add <file>       adds file/s to index. add . will add all files 
+
+git status           check status of working tree
+
+git commit           commits changes in index. commit -m "comment" skips vim
+
+git push			 pushes to remote repository
+
+git pull             pulls latest from remote repository
+
+git clone            clones remote repository to your local one
+
+git branch <name of branch>  creates new branch
+
+git checkout <name of branch> switches to that branch
+
+git merge <name of branch> merges branch
+
+
+Extra things:
+creating a .gitignore file, and including the files you don't want to include will cause git to not add these files to your repository
+
+
+Connecting to a remote repository:
+
+Go to github.com and create new repository. Follow instructions
