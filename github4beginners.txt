@@ -40,3 +40,6 @@ creating a .gitignore file, and including the files you don't want to include wi
 Connecting to a remote repository:
 
 Go to github.com and create new repository. Follow instructions
+
+git remote add origin https://github.com/pheidler/<repository name>.git
+git push -u origin master
